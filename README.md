@@ -44,10 +44,8 @@ $ sudo -v
 [sudo] password for <username>: <password>
 ```
 
-### Step 3: Running *root*-Privileged Commands
+### Step 3: Configuring *sudo*
 Run the following commands with prefix `sudo`.
-
-### Step 4: Configuring *sudo*
 Configure *sudo* via `sudo vi /etc/sudoers.d/<filename>`.
 ```
 $ sudo vi /etc/sudoers.d/<filename>
